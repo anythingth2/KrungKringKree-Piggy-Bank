@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Student\Desktop\KrungKringKree-Piggy-Bank\KrungKringKree-Piggy-Bank\main.ncd
+OUTFILE=C:\Users\Student\Desktop\KrungKringKree-Piggy-Bank\KrungKringKree-Piggy-Bank\main.bit
+FAMILY=Spartan3
+PART=xc3s400-4tq144
+WORKINGDIR=C:\Users\Student\Desktop\KrungKringKree-Piggy-Bank\KrungKringKree-Piggy-Bank
+LICENSE=WebPack
+USER_INFO=__0_0_0
