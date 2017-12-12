@@ -64,7 +64,7 @@
         <signal name="XLXN_312" />
         <signal name="XLXN_313" />
         <signal name="XLXN_314" />
-        <signal name="XLXN_315" />
+        <signal name="U25B_K1_9_P119" />
         <signal name="U30_Q0_K2_1_P112" />
         <signal name="U30_Q1_K2_3_P108" />
         <signal name="U30_Q3_K2_7_P105" />
@@ -89,7 +89,7 @@
         <port polarity="Input" name="BAHT10_K1_5_P123" />
         <port polarity="Input" name="BAHT5_K1_3_P124" />
         <port polarity="Output" name="DS_U30_K1_7_P122" />
-        <port polarity="Output" name="XLXN_315" />
+        <port polarity="Output" name="U25B_K1_9_P119" />
         <port polarity="Input" name="U30_Q0_K2_1_P112" />
         <port polarity="Input" name="U30_Q1_K2_3_P108" />
         <port polarity="Input" name="U30_Q3_K2_7_P105" />
@@ -440,7 +440,7 @@
         <block symbolname="or2" name="XLXI_200">
             <blockpin signalname="XLXN_314" name="I0" />
             <blockpin signalname="XLXN_313" name="I1" />
-            <blockpin signalname="XLXN_315" name="O" />
+            <blockpin signalname="U25B_K1_9_P119" name="O" />
         </block>
     </netlist>
     <sheet sheetnum="1" width="7040" height="5440">
@@ -796,10 +796,10 @@
             <wire x2="5024" y1="912" y2="1456" x1="5024" />
             <wire x2="5056" y1="912" y2="912" x1="5024" />
         </branch>
-        <branch name="XLXN_315">
+        <branch name="U25B_K1_9_P119">
             <wire x2="5344" y1="880" y2="880" x1="5312" />
         </branch>
-        <iomarker fontsize="28" x="5344" y="880" name="XLXN_315" orien="R0" />
+        <iomarker fontsize="28" x="5344" y="880" name="U25B_K1_9_P119" orien="R0" />
         <branch name="U30_Q0_K2_1_P112">
             <wire x2="1024" y1="32" y2="32" x1="944" />
             <wire x2="1904" y1="32" y2="32" x1="1024" />

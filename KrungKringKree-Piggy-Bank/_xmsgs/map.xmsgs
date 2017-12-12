@@ -8,16 +8,10 @@
 <msg type="info" file="MapLib" num="562" delta="new" >No environment variables are currently set.
 </msg>
 
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">BAHT10_K1_5_P123</arg> connected to top level port <arg fmt="%s" index="2">BAHT10_K1_5_P123</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">BAHT5_K1_3_P124</arg> connected to top level port <arg fmt="%s" index="2">BAHT5_K1_3_P124</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">BATH1_K1_1_P125</arg> connected to top level port <arg fmt="%s" index="2">BATH1_K1_1_P125</arg> has been removed.
-</msg>
-
 <msg type="info" file="LIT" num="244" delta="new" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="new" >Gated clock. Clock net <arg fmt="%s" index="1">XLXN_219</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
 </msg>
 
 </messages>

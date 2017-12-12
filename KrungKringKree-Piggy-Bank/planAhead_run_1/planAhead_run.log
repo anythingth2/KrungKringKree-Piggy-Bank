@@ -37,39 +37,38 @@ Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data
 INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/spartan3-4.lib.
 INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/spartan3-4.lib.
 Parsing UCF File [C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main.ucf]
-CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'P24' [C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main.ucf:3]
-CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'P25' [C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main.ucf:4]
-CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'P33' [C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main.ucf:5]
-CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'P35' [C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main.ucf:6]
-CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'P32' [C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main.ucf:10]
-CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'P108' [C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main.ucf:11]
-CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'P112' [C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main.ucf:12]
 Finished Parsing UCF File [C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main.ucf]
-INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Phase 0 | Netlist Checksum: e8c4e28e
+Phase 0 | Netlist Checksum: 8e91f1e7
+open_rtl_design: Time (s): elapsed = 00:00:05 . Memory (MB): peak = 479.855 ; gain = 60.484
 update_compile_order -fileset sim_1
 startgroup
-set_property package_pin P100 [get_ports K2_15_P100]
+set_property package_pin P124 [get_ports BAHT5_K1_3_P124]
 endgroup
 startgroup
-set_property package_pin P25 [get_ports SW_P25]
-endgroup
-save_constraints
-startgroup
-set_property package_pin P100 [get_ports K2_15_P100]
+set_property package_pin P123 [get_ports BAHT10_K1_5_P123]
 endgroup
 startgroup
-set_property package_pin P25 [get_ports SW_P25]
+set_property package_pin P125 [get_ports BATH1_K1_1_P125]
 endgroup
-save_constraints
 startgroup
-set_property package_pin P123 [get_ports K2_15_P100]
+set_property package_pin P122 [get_ports DS_U30_K1_7_P122]
 endgroup
-save_constraints -force
+startgroup
+set_property package_pin P79 [get_ports U19_Q0_K6_1_P79]
+endgroup
+startgroup
+set_property package_pin P78 [get_ports U19_Q1_K6_3_P78]
+endgroup
+startgroup
+set_property package_pin P77 [get_ports U19_Q2_K6_5_77]
+endgroup
+startgroup
+set_property package_pin P76 [get_ports U19_Q3_K6_7_P76]
+endgroup
 exit
 ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
-INFO: [Common 17-206] Exiting PlanAhead at Tue Dec 12 04:10:06 2017...
+INFO: [Common 17-206] Exiting PlanAhead at Tue Dec 12 17:40:09 2017...
 INFO: [Common 17-83] Releasing license: PlanAhead

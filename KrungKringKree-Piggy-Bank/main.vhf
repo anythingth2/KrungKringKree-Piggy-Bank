@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : main.vhf
--- /___/   /\     Timestamp : 12/12/2017 16:30:28
+-- /___/   /\     Timestamp : 12/12/2017 17:45:14
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -26,31 +26,31 @@ library UNISIM;
 use UNISIM.Vcomponents.ALL;
 
 entity main is
-   port ( BAHT5_K1_3_P124  : in    std_logic; 
-          BAHT10_K1_5_P123 : in    std_logic; 
-          BATH1_K1_1_P125  : in    std_logic; 
-          U19_Q0           : in    std_logic; 
-          U19_Q1           : in    std_logic; 
-          U19_Q2           : in    std_logic; 
-          U19_Q3           : in    std_logic; 
-          U30_Q0           : in    std_logic; 
-          U30_Q1           : in    std_logic; 
-          U30_Q2           : in    std_logic; 
-          U30_Q3           : in    std_logic; 
-          U30_Q4           : in    std_logic; 
-          U30_Q5           : in    std_logic; 
-          U30_Q6           : in    std_logic; 
-          U30_Q7           : in    std_logic; 
-          U31_Q0           : in    std_logic; 
-          U31_Q1           : in    std_logic; 
-          U31_Q2           : in    std_logic; 
-          U31_Q3           : in    std_logic; 
-          U31_Q4           : in    std_logic; 
-          U31_Q5           : in    std_logic; 
-          U31_Q6           : in    std_logic; 
-          U31_Q7           : in    std_logic; 
-          DS_U30           : out   std_logic; 
-          XLXN_315         : out   std_logic);
+   port ( BAHT5_K1_3_P124   : in    std_logic; 
+          BAHT10_K1_5_P123  : in    std_logic; 
+          BATH1_K1_1_P125   : in    std_logic; 
+          U19_Q0_K6_1_P79   : in    std_logic; 
+          U19_Q1_K6_3_P78   : in    std_logic; 
+          U19_Q2_K6_5_77    : in    std_logic; 
+          U19_Q3_K6_7_P76   : in    std_logic; 
+          U30_Q0_K2_1_P112  : in    std_logic; 
+          U30_Q1_K2_3_P108  : in    std_logic; 
+          U30_Q2_K2_5_P107  : in    std_logic; 
+          U30_Q3_K2_7_P105  : in    std_logic; 
+          U30_Q4_K2_9_P104  : in    std_logic; 
+          U30_Q5_K2_11_P103 : in    std_logic; 
+          U30_Q6_K2_13_P102 : in    std_logic; 
+          U30_Q7_K2_15_P00  : in    std_logic; 
+          U31_Q0_K4_1_P99   : in    std_logic; 
+          U31_Q1_K4_3_P98   : in    std_logic; 
+          U31_Q2_K4_5_P97   : in    std_logic; 
+          U31_Q3_K4_7_P96   : in    std_logic; 
+          U31_Q4_K4_9_P95   : in    std_logic; 
+          U31_Q5_K4_11_P93  : in    std_logic; 
+          U31_Q6_K4_13_P92  : in    std_logic; 
+          U31_Q7_K4_15_P90  : in    std_logic; 
+          DS_U30_K1_7_P122  : out   std_logic; 
+          U25B_K1_9_P119    : out   std_logic);
 end main;
 
 architecture BEHAVIORAL of main is
@@ -245,7 +245,7 @@ begin
       port map (C=>XLXN_219,
                 CLR=>XLXN_276,
                 D=>XLXN_218,
-                Q=>DS_U30);
+                Q=>DS_U30_K1_7_P122);
    
    XLXI_137 : VCC
       port map (P=>XLXN_218);
@@ -272,97 +272,97 @@ begin
                 Q=>XLXN_311);
    
    XLXI_168 : INV
-      port map (I=>U30_Q0,
+      port map (I=>U30_Q0_K2_1_P112,
                 O=>XLXN_276);
    
    XLXI_169 : INV
-      port map (I=>U30_Q1,
+      port map (I=>U30_Q1_K2_3_P108,
                 O=>XLXN_277);
    
    XLXI_170 : INV
-      port map (I=>U30_Q3,
+      port map (I=>U30_Q3_K2_7_P105,
                 O=>XLXN_278);
    
    XLXI_171 : INV
-      port map (I=>U30_Q5,
+      port map (I=>U30_Q5_K2_11_P103,
                 O=>XLXN_279);
    
    XLXI_172 : INV
-      port map (I=>U30_Q7,
+      port map (I=>U30_Q7_K2_15_P00,
                 O=>XLXN_280);
    
    XLXI_173 : INV
-      port map (I=>U31_Q1,
+      port map (I=>U31_Q1_K4_3_P98,
                 O=>XLXN_281);
    
    XLXI_174 : INV
-      port map (I=>U31_Q3,
+      port map (I=>U31_Q3_K4_7_P96,
                 O=>XLXN_282);
    
    XLXI_175 : INV
-      port map (I=>U31_Q5,
+      port map (I=>U31_Q5_K4_11_P93,
                 O=>XLXN_283);
    
    XLXI_176 : INV
-      port map (I=>U31_Q7,
+      port map (I=>U31_Q7_K4_15_P90,
                 O=>XLXN_284);
    
    XLXI_177 : INV
-      port map (I=>U19_Q1,
+      port map (I=>U19_Q1_K6_3_P78,
                 O=>XLXN_285);
    
    XLXI_178 : INV
-      port map (I=>U19_Q3,
+      port map (I=>U19_Q3_K6_7_P76,
                 O=>XLXN_286);
    
    XLXI_179 : AND2
       port map (I0=>XLXN_277,
-                I1=>U30_Q0,
+                I1=>U30_Q0_K2_1_P112,
                 O=>XLXN_296);
    
    XLXI_180 : AND2
       port map (I0=>XLXN_278,
-                I1=>U30_Q2,
+                I1=>U30_Q2_K2_5_P107,
                 O=>XLXN_293);
    
    XLXI_181 : AND2
       port map (I0=>XLXN_279,
-                I1=>U30_Q4,
+                I1=>U30_Q4_K2_9_P104,
                 O=>XLXN_287);
    
    XLXI_182 : AND2
       port map (I0=>XLXN_280,
-                I1=>U30_Q6,
+                I1=>U30_Q6_K2_13_P102,
                 O=>XLXN_288);
    
    XLXI_183 : AND2
       port map (I0=>XLXN_281,
-                I1=>U31_Q0,
+                I1=>U31_Q0_K4_1_P99,
                 O=>XLXN_301);
    
    XLXI_184 : AND2
       port map (I0=>XLXN_282,
-                I1=>U31_Q2,
+                I1=>U31_Q2_K4_5_P97,
                 O=>XLXN_303);
    
    XLXI_185 : AND2
       port map (I0=>XLXN_283,
-                I1=>U31_Q4,
+                I1=>U31_Q4_K4_9_P95,
                 O=>XLXN_289);
    
    XLXI_186 : AND2
       port map (I0=>XLXN_284,
-                I1=>U31_Q6,
+                I1=>U31_Q6_K4_13_P92,
                 O=>XLXN_290);
    
    XLXI_187 : AND2
       port map (I0=>XLXN_285,
-                I1=>U19_Q0,
+                I1=>U19_Q0_K6_1_P79,
                 O=>XLXN_291);
    
    XLXI_188 : AND2
       port map (I0=>XLXN_286,
-                I1=>U19_Q2,
+                I1=>U19_Q2_K6_5_77,
                 O=>XLXN_292);
    
    XLXI_189 : OR2
@@ -423,7 +423,7 @@ begin
    XLXI_200 : OR2
       port map (I0=>XLXN_314,
                 I1=>XLXN_313,
-                O=>XLXN_315);
+                O=>U25B_K1_9_P119);
    
 end BEHAVIORAL;
 

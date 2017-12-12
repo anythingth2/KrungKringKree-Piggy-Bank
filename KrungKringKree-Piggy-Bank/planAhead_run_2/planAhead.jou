@@ -1,14 +1,15 @@
 #-----------------------------------------------------------
 # PlanAhead v14.7
 # Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
-# Start of session at: Tue Dec 12 13:27:19 2017
-# Process ID: 6152
+# Start of session at: Tue Dec 12 17:45:29 2017
+# Process ID: 268
 # Log file: C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/planAhead_run_2/planAhead.log
 # Journal file: C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/planAhead_run_2/planAhead.jou
 #-----------------------------------------------------------
 start_gui
 source C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/pa.fromHdl.tcl
 update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  BAHT10_K1_5_P123]]
 startgroup
 set_property package_pin P124 [get_ports BAHT5_K1_3_P124]
 endgroup
@@ -19,27 +20,70 @@ startgroup
 set_property package_pin P125 [get_ports BATH1_K1_1_P125]
 endgroup
 startgroup
-set_property package_pin P20 [get_ports CLEAR_P20]
+set_property package_pin P122 [get_ports DS_U30_K1_7_P122]
 endgroup
 startgroup
-set_property package_pin P87 [get_ports CLK_K4_3_P87]
+set_property package_pin P79 [get_ports U19_Q0_K6_1_P79]
 endgroup
 startgroup
-set_property package_pin P36 [get_ports LED_P36]
+set_property package_pin P78 [get_ports U19_Q1_K6_3_P78]
 endgroup
 startgroup
-set_property package_pin P40 [get_ports LED_P40]
+set_property package_pin P77 [get_ports U19_Q2_K6_5_77]
 endgroup
 startgroup
-set_property package_pin P25 [get_ports P25]
+set_property package_pin P76 [get_ports U19_Q3_K6_7_P76]
 endgroup
 startgroup
-set_property package_pin P89 [get_ports P89]
+set_property package_pin P119 [get_ports U25B_K1_9_P119]
 endgroup
 startgroup
-set_property package_pin P18 [get_ports PRESET_18]
+set_property package_pin P112 [get_ports U30_Q0_K2_1_P112]
 endgroup
 startgroup
-set_property package_pin P15 [get_ports S_P15]
+set_property package_pin P108 [get_ports U30_Q1_K2_3_P108]
+endgroup
+startgroup
+set_property package_pin P107 [get_ports U30_Q2_K2_5_P107]
+endgroup
+startgroup
+set_property package_pin P105 [get_ports U30_Q3_K2_7_P105]
+endgroup
+startgroup
+set_property package_pin P104 [get_ports U30_Q4_K2_9_P104]
+endgroup
+startgroup
+set_property package_pin P103 [get_ports U30_Q5_K2_11_P103]
+endgroup
+startgroup
+set_property package_pin P102 [get_ports U30_Q6_K2_13_P102]
+endgroup
+set_property package_pin "" [get_ports [list  U31_Q0_K4_1_P99]]
+startgroup
+set_property package_pin P100 [get_ports U30_Q7_K2_15_P00]
+endgroup
+startgroup
+set_property package_pin P99 [get_ports U31_Q0_K4_1_P99]
+endgroup
+startgroup
+set_property package_pin P98 [get_ports U31_Q1_K4_3_P98]
+endgroup
+startgroup
+set_property package_pin P97 [get_ports U31_Q2_K4_5_P97]
+endgroup
+startgroup
+set_property package_pin P96 [get_ports U31_Q3_K4_7_P96]
+endgroup
+startgroup
+set_property package_pin P95 [get_ports U31_Q4_K4_9_P95]
+endgroup
+startgroup
+set_property package_pin P93 [get_ports U31_Q5_K4_11_P93]
+endgroup
+startgroup
+set_property package_pin P92 [get_ports U31_Q6_K4_13_P92]
+endgroup
+startgroup
+set_property package_pin P90 [get_ports U31_Q7_K4_15_P90]
 endgroup
 save_constraints

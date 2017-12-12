@@ -1,8 +1,8 @@
 #-----------------------------------------------------------
 # PlanAhead v14.7
 # Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
-# Start of session at: Tue Dec 12 04:03:10 2017
-# Process ID: 6792
+# Start of session at: Tue Dec 12 17:38:34 2017
+# Process ID: 8904
 # Log file: C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/planAhead_run_1/planAhead.log
 # Journal file: C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/planAhead_run_1/planAhead.jou
 #-----------------------------------------------------------
@@ -10,20 +10,26 @@ start_gui
 source C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/pa.fromHdl.tcl
 update_compile_order -fileset sim_1
 startgroup
-set_property package_pin P100 [get_ports K2_15_P100]
+set_property package_pin P124 [get_ports BAHT5_K1_3_P124]
 endgroup
 startgroup
-set_property package_pin P25 [get_ports SW_P25]
-endgroup
-save_constraints
-startgroup
-set_property package_pin P100 [get_ports K2_15_P100]
+set_property package_pin P123 [get_ports BAHT10_K1_5_P123]
 endgroup
 startgroup
-set_property package_pin P25 [get_ports SW_P25]
+set_property package_pin P125 [get_ports BATH1_K1_1_P125]
 endgroup
-save_constraints
 startgroup
-set_property package_pin P123 [get_ports K2_15_P100]
+set_property package_pin P122 [get_ports DS_U30_K1_7_P122]
 endgroup
-save_constraints -force
+startgroup
+set_property package_pin P79 [get_ports U19_Q0_K6_1_P79]
+endgroup
+startgroup
+set_property package_pin P78 [get_ports U19_Q1_K6_3_P78]
+endgroup
+startgroup
+set_property package_pin P77 [get_ports U19_Q2_K6_5_77]
+endgroup
+startgroup
+set_property package_pin P76 [get_ports U19_Q3_K6_7_P76]
+endgroup
