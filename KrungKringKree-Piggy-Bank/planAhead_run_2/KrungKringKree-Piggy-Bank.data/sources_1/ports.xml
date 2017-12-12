@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Port Id="BAHT5_K1_3_P124" Dir="IN"/>
+		<Port Id="BAHT10_K1_5_P123" Dir="IN"/>
+		<Port Id="BATH1_K1_1_P125" Dir="IN"/>
+		<Port Id="CLEAR_P20" Dir="IN"/>
+		<Port Id="CLK_K4_3_P87" Dir="IN"/>
+		<Port Id="PRESET_18" Dir="IN"/>
+		<Port Id="P25" Dir="IN"/>
+		<Port Id="S_P15" Dir="IN"/>
+		<Port Id="LED_P36" Dir="OUT"/>
+		<Port Id="LED_P40" Dir="OUT"/>
+		<Port Id="P89" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

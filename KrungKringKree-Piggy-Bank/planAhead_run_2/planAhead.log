@@ -1,8 +1,8 @@
 #-----------------------------------------------------------
 # PlanAhead v14.7
 # Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
-# Start of session at: Tue Dec 12 06:29:28 2017
-# Process ID: 7616
+# Start of session at: Tue Dec 12 13:27:19 2017
+# Process ID: 6152
 # Log file: C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/planAhead_run_2/planAhead.log
 # Journal file: C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/planAhead_run_2/planAhead.jou
 #-----------------------------------------------------------
@@ -16,13 +16,13 @@ source C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-B
 # create_project -name KrungKringKree-Piggy-Bank -dir "C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/planAhead_run_2" -part xc3s400tq144-4
 # set_param project.pinAheadLayout yes
 # set srcset [get_property srcset [current_run -impl]]
-# set_property target_constrs_file "main_pin.ucf" [current_fileset -constrset]
-Adding file 'C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main_pin.ucf' to fileset 'constrs_1'
+# set_property target_constrs_file "main.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main.ucf' to fileset 'constrs_1'
 # set hdlfile [add_files [list {main.vhf}]]
 # set_property file_type VHDL $hdlfile
 # set_property library work $hdlfile
 # set_property top main $srcset
-# add_files [list {main_pin.ucf}] -fileset [get_property constrset [current_run]]
+# add_files [list {main.ucf}] -fileset [get_property constrset [current_run]]
 # open_rtl_design -part xc3s400tq144-4
 Using Verific elaboration
 Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
@@ -39,23 +39,44 @@ INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\p
 Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/drc.xml
 INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/spartan3-4.lib.
 INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/spartan3-4.lib.
-Parsing UCF File [C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main_pin.ucf]
-CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'P108' [C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main_pin.ucf:3]
-CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SW_P25' [C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main_pin.ucf:4]
-Finished Parsing UCF File [C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main_pin.ucf]
-INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+Parsing UCF File [C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main.ucf]
+Finished Parsing UCF File [C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main.ucf]
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Phase 0 | Netlist Checksum: de31eff3
+Phase 0 | Netlist Checksum: 9759dc86
 update_compile_order -fileset sim_1
-exit
-ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
-HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
-HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
-HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
-HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
- (See C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank\planAhead_pid7616.debug)
-ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
-INFO: [Common 17-206] Exiting PlanAhead at Tue Dec 12 07:13:09 2017...
-INFO: [Common 17-83] Releasing license: PlanAhead
+startgroup
+set_property package_pin P124 [get_ports BAHT5_K1_3_P124]
+endgroup
+startgroup
+set_property package_pin P123 [get_ports BAHT10_K1_5_P123]
+endgroup
+startgroup
+set_property package_pin P125 [get_ports BATH1_K1_1_P125]
+endgroup
+startgroup
+set_property package_pin P20 [get_ports CLEAR_P20]
+endgroup
+startgroup
+set_property package_pin P87 [get_ports CLK_K4_3_P87]
+endgroup
+startgroup
+set_property package_pin P36 [get_ports LED_P36]
+endgroup
+startgroup
+set_property package_pin P40 [get_ports LED_P40]
+endgroup
+startgroup
+set_property package_pin P25 [get_ports P25]
+endgroup
+startgroup
+set_property package_pin P89 [get_ports P89]
+endgroup
+startgroup
+set_property package_pin P18 [get_ports PRESET_18]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports S_P15]
+endgroup
+save_constraints

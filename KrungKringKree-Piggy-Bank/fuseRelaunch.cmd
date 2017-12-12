@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main_isim_beh.exe" -prj "C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main_beh.prj" "work.main" 

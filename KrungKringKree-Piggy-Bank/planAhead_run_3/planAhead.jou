@@ -1,11 +1,39 @@
 #-----------------------------------------------------------
 # PlanAhead v14.7
 # Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
-# Start of session at: Tue Dec 12 06:30:19 2017
-# Process ID: 7004
+# Start of session at: Tue Dec 12 12:47:06 2017
+# Process ID: 3308
 # Log file: C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/planAhead_run_3/planAhead.log
 # Journal file: C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/planAhead_run_3/planAhead.jou
 #-----------------------------------------------------------
 start_gui
 source C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/pa.fromHdl.tcl
 update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P20 [get_ports CLEAR_P20]
+endgroup
+startgroup
+set_property package_pin P125 [get_ports CLK_K2_1_P125]
+endgroup
+startgroup
+set_property package_pin P36 [get_ports LED_P36]
+endgroup
+startgroup
+set_property package_pin P40 [get_ports LED_P40]
+endgroup
+startgroup
+set_property package_pin P18 [get_ports PRESET_18]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports S_P15]
+endgroup
+startgroup
+set_property package_pin P8 [get_ports BAHT5_K1_3_P124]
+endgroup
+startgroup
+set_property package_pin P10 [get_ports BAHT10_K1_5_P123]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports BATH1_K1_1_P125]
+endgroup
+save_constraints

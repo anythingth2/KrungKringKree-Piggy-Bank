@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-DIGITAL-15::  Tue Dec 12 08:35:31 2017
+DIGITAL-15::  Tue Dec 12 13:28:37 2017
 
 par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
 
@@ -24,8 +24,11 @@ Device speed data version:  "PRODUCTION 1.39 2013-10-13".
 
 Device Utilization Summary:
 
-   Number of External IOBs                  18 out of 97     18%
-      Number of LOCed IOBs                  18 out of 18    100%
+   Number of External IOBs                   8 out of 97      8%
+      Number of LOCed IOBs                   8 out of 8     100%
+
+   Number of Slices                          1 out of 3584    1%
+      Number of SLICEMs                      0 out of 1792    0%
 
 
 
@@ -43,31 +46,32 @@ Total REAL time at the beginning of Placer: 0 secs
 Total CPU  time at the beginning of Placer: 0 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:bb626420) REAL time: 1 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:17ce89e2) REAL time: 1 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:bb626420) REAL time: 1 secs 
+Phase 2.7  Design Feasibility Check (Checksum:17ce89e2) REAL time: 1 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:bb626420) REAL time: 1 secs 
+Phase 3.31  Local Placement Optimization (Checksum:17ce89e2) REAL time: 1 secs 
 
 Phase 4.2  Initial Clock and IO Placement
-Phase 4.2  Initial Clock and IO Placement (Checksum:bb626420) REAL time: 1 secs 
+Phase 4.2  Initial Clock and IO Placement (Checksum:17ce89e2) REAL time: 1 secs 
 
 Phase 5.36  Local Placement Optimization
-Phase 5.36  Local Placement Optimization (Checksum:bb626420) REAL time: 1 secs 
+Phase 5.36  Local Placement Optimization (Checksum:17ce89e2) REAL time: 1 secs 
 
 Phase 6.8  Global Placement
-Phase 6.8  Global Placement (Checksum:bb626420) REAL time: 1 secs 
+..
+Phase 6.8  Global Placement (Checksum:18c0e1e2) REAL time: 1 secs 
 
 Phase 7.5  Local Placement Optimization
-Phase 7.5  Local Placement Optimization (Checksum:bb626420) REAL time: 1 secs 
+Phase 7.5  Local Placement Optimization (Checksum:18c0e1e2) REAL time: 1 secs 
 
 Phase 8.18  Placement Optimization
-Phase 8.18  Placement Optimization (Checksum:bb626420) REAL time: 1 secs 
+Phase 8.18  Placement Optimization (Checksum:17d850a2) REAL time: 1 secs 
 
 Phase 9.5  Local Placement Optimization
-Phase 9.5  Local Placement Optimization (Checksum:bb626420) REAL time: 1 secs 
+Phase 9.5  Local Placement Optimization (Checksum:17d850a2) REAL time: 1 secs 
 
 Total REAL time to Placer completion: 1 secs 
 Total CPU  time to Placer completion: 1 secs 
@@ -78,9 +82,9 @@ Writing design to file main.ncd
 Starting Router
 
 
-Phase  1  : 9 unrouted;      REAL time: 1 secs 
+Phase  1  : 11 unrouted;      REAL time: 1 secs 
 
-Phase  2  : 9 unrouted;      REAL time: 1 secs 
+Phase  2  : 11 unrouted;      REAL time: 1 secs 
 
 Phase  3  : 6 unrouted;      REAL time: 1 secs 
 

@@ -1,9 +1,9 @@
-V3 7
-FL C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main.vhf 2017/12/12.08:31:00 P.20131013
-EN work/main 1513042516 \
+V3 9
+FL C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main.vhf 2017/12/12.13:27:04 P.20131013
+EN work/main 1513060028 \
       FL C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/main/BEHAVIORAL 1513042517 \
+AR work/main/BEHAVIORAL 1513060029 \
       FL C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main.vhf \
-      EN work/main 1513042516 CP INV CP GND CP OR2
+      EN work/main 1513060028 CP GND CP OR2 CP INV CP NAND2 CP NAND3

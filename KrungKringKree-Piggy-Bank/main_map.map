@@ -9,9 +9,15 @@ Target Device  : xc3s400
 Target Package : tq144
 Target Speed   : -4
 Mapper Version : spartan3 -- $Revision: 1.55 $
-Mapped Date    : Tue Dec 12 08:35:28 2017
+Mapped Date    : Tue Dec 12 13:28:33 2017
 
 Mapping design into LUTs...
+WARNING:MapLib:701 - Signal BAHT10_K1_5_P123 connected to top level port
+   BAHT10_K1_5_P123 has been removed.
+WARNING:MapLib:701 - Signal BAHT5_K1_3_P124 connected to top level port
+   BAHT5_K1_3_P124 has been removed.
+WARNING:MapLib:701 - Signal BATH1_K1_1_P125 connected to top level port
+   BATH1_K1_1_P125 has been removed.
 Running directed packing...
 Running delay-based LUT packing...
 Running related packing...
@@ -22,15 +28,18 @@ Design Summary
 
 Design Summary:
 Number of errors:      0
-Number of warnings:    0
+Number of warnings:    3
 Logic Utilization:
+  Number of 4 input LUTs:                 2 out of   7,168    1%
 Logic Distribution:
-    Number of Slices containing only related logic:       0 out of       0   0%
-    Number of Slices containing unrelated logic:          0 out of       0   0%
+  Number of occupied Slices:              1 out of   3,584    1%
+    Number of Slices containing only related logic:       1 out of       1 100%
+    Number of Slices containing unrelated logic:          0 out of       1   0%
       *See NOTES below for an explanation of the effects of unrelated logic.
-  Number of bonded IOBs:                 18 out of      97   18%
+  Total Number of 4 input LUTs:           2 out of   7,168    1%
+  Number of bonded IOBs:                  8 out of      97    8%
 
-Average Fanout of Non-Clock Nets:                1.00
+Average Fanout of Non-Clock Nets:                1.57
 
 Peak Memory Usage:  252 MB
 Total REAL time to MAP completion:  0 secs 

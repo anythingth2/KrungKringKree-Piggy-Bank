@@ -1,8 +1,8 @@
 #-----------------------------------------------------------
 # PlanAhead v14.7
 # Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
-# Start of session at: Tue Dec 12 08:32:11 2017
-# Process ID: 7916
+# Start of session at: Tue Dec 12 10:08:53 2017
+# Process ID: 5540
 # Log file: C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/planAhead_run_5/planAhead.log
 # Journal file: C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/planAhead_run_5/planAhead.jou
 #-----------------------------------------------------------
@@ -44,60 +44,28 @@ Finished Parsing UCF File [C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/Kr
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Phase 0 | Netlist Checksum: 233a2a59
+Phase 0 | Netlist Checksum: 935865d8
 update_compile_order -fileset sim_1
 startgroup
-set_property package_pin P122 [get_ports K2_1_P112]
+set_property package_pin P124 [get_ports BAHT5_K1_3_P124]
 endgroup
 startgroup
-set_property package_pin P108 [get_ports K2_3_P108]
+set_property package_pin P123 [get_ports BAHT10_K1_5_P123]
 endgroup
 startgroup
-set_property package_pin P107 [get_ports K2_5_P107]
+set_property package_pin P27 [get_ports P27]
 endgroup
 startgroup
-set_property package_pin P105 [get_ports K2_7_105]
-endgroup
-startgroup
-set_property package_pin P104 [get_ports K2_9_P104]
-endgroup
-startgroup
-set_property package_pin P103 [get_ports K2_11_P103]
-endgroup
-startgroup
-set_property package_pin P102 [get_ports K2_13_102]
-endgroup
-startgroup
-set_property package_pin P100 [get_ports K2_15_P100]
-endgroup
-startgroup
-set_property package_pin P26 [get_ports LED_P26]
-endgroup
-startgroup
-set_property package_pin P27 [get_ports LED_P27]
-endgroup
-startgroup
-set_property package_pin P28 [get_ports LED_P28]
-endgroup
-startgroup
-set_property package_pin P30 [get_ports LED_P30]
-endgroup
-startgroup
-set_property package_pin P31 [get_ports LED_P31]
-endgroup
-startgroup
-set_property package_pin P32 [get_ports LED_P32]
-endgroup
-startgroup
-set_property package_pin P33 [get_ports LED_P33]
-endgroup
-startgroup
-set_property package_pin P35 [get_ports LED_P35]
-endgroup
-startgroup
-set_property package_pin P99 [get_ports XLXN_45]
-endgroup
-startgroup
-set_property package_pin P36 [get_ports XLXN_47]
+set_property package_pin P28 [get_ports P28]
 endgroup
 save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+ (See C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank\planAhead_pid5540.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Dec 12 12:46:16 2017...
+INFO: [Common 17-83] Releasing license: PlanAhead

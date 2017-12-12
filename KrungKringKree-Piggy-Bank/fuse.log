@@ -1,0 +1,26 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main_isim_beh.exe -prj C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main_beh.prj work.main 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main.vhf" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture gnd_v of entity GND [gnd_default]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture fdc_v of entity FDC [\FDC('0')\]
+Compiling architecture vcc_v of entity VCC [vcc_default]
+Compiling architecture fdcp_v of entity FDCP [\FDCP('0')\]
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture behavioral of entity main
+Time Resolution for simulation is 1ps.
+Waiting for 4 sub-compilation(s) to finish...
+Compiled 19 VHDL Units
+Built simulation executable C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/main_isim_beh.exe
+Fuse Memory Usage: 50020 KB
+Fuse CPU Usage: 1139 ms
