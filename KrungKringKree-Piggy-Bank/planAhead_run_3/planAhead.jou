@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Tue Dec 12 20:07:40 2017
+# Process ID: 9664
+# Log file: C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/planAhead_run_3/planAhead.log
+# Journal file: C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Student/Desktop/KrungKringKree-Piggy-Bank/KrungKringKree-Piggy-Bank/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P127 [get_ports clock_P127]
+endgroup
+startgroup
+set_property package_pin P113 [get_ports clockout_P113]
+endgroup
+save_constraints

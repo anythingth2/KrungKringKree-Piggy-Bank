@@ -9,29 +9,28 @@ Target Device  : xc3s400
 Target Package : tq144
 Target Speed   : -4
 Mapper Version : spartan3 -- $Revision: 1.55 $
-Mapped Date    : Tue Dec 12 17:49:07 2017
+Mapped Date    : Tue Dec 12 21:44:13 2017
 
 Design Summary
 --------------
 Number of errors:      0
 Number of warnings:    1
 Logic Utilization:
-  Number of Slice Flip Flops:             3 out of   7,168    1%
-  Number of 4 input LUTs:                12 out of   7,168    1%
+  Number of Slice Flip Flops:             4 out of   7,168    1%
+  Number of 4 input LUTs:                11 out of   7,168    1%
 Logic Distribution:
-  Number of occupied Slices:              9 out of   3,584    1%
-    Number of Slices containing only related logic:       9 out of       9 100%
-    Number of Slices containing unrelated logic:          0 out of       9   0%
+  Number of occupied Slices:             11 out of   3,584    1%
+    Number of Slices containing only related logic:      11 out of      11 100%
+    Number of Slices containing unrelated logic:          0 out of      11   0%
       *See NOTES below for an explanation of the effects of unrelated logic.
-  Total Number of 4 input LUTs:          12 out of   7,168    1%
-  Number of bonded IOBs:                 25 out of      97   25%
-    IOB Flip Flops:                       1
+  Total Number of 4 input LUTs:          11 out of   7,168    1%
+  Number of bonded IOBs:                 30 out of      97   30%
 
-Average Fanout of Non-Clock Nets:                1.19
+Average Fanout of Non-Clock Nets:                1.32
 
 Peak Memory Usage:  252 MB
-Total REAL time to MAP completion:  0 secs 
-Total CPU time to MAP completion:   0 secs 
+Total REAL time to MAP completion:  1 secs 
+Total CPU time to MAP completion:   1 secs 
 
 NOTES:
 
@@ -93,7 +92,7 @@ Section 5 - Removed Logic
 Optimized Block(s):
 TYPE 		BLOCK
 VCC 		XLXI_137
-GND 		XLXI_44
+GND 		XLXI_213
 
 To enable printing of redundant blocks removed and signals merged, set the
 detailed map report option and rerun map.
@@ -108,7 +107,10 @@ Section 6 - IOB Properties
 | BAHT10_K1_5_P123                   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 | BAHT5_K1_3_P124                    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 | BATH1_K1_1_P125                    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| DS_U30_K1_7_P122                   | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | OFF1         |          |          |
+| DS_U30_K1_7_P122                   | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| LED_P36                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| LED_P40                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| LED_P41                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
 | U19_Q0_K6_1_P79                    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 | U19_Q1_K6_3_P78                    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 | U19_Q2_K6_5_77                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
@@ -130,6 +132,8 @@ Section 6 - IOB Properties
 | U31_Q5_K4_11_P93                   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 | U31_Q6_K4_13_P92                   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 | U31_Q7_K4_15_P90                   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| clock_P127                         | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| clockout_P113                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Section 7 - RPMs

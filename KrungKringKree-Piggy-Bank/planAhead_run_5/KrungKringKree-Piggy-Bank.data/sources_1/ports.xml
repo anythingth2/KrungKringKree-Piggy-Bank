@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Port Id="BAHT5_K1_3_P124" Dir="IN"/>
+		<Port Id="BAHT10_K1_5_P123" Dir="IN"/>
+		<Port Id="BATH1_K1_1_P125" Dir="IN"/>
+		<Port Id="clock_P127" Dir="IN"/>
+		<Port Id="U19_Q0_K6_1_P79" Dir="IN"/>
+		<Port Id="U19_Q1_K6_3_P78" Dir="IN"/>
+		<Port Id="U19_Q2_K6_5_77" Dir="IN"/>
+		<Port Id="U19_Q3_K6_7_P76" Dir="IN"/>
+		<Port Id="U30_Q0_K2_1_P112" Dir="IN"/>
+		<Port Id="U30_Q1_K2_3_P108" Dir="IN"/>
+		<Port Id="U30_Q2_K2_5_P107" Dir="IN"/>
+		<Port Id="U30_Q3_K2_7_P105" Dir="IN"/>
+		<Port Id="U30_Q4_K2_9_P104" Dir="IN"/>
+		<Port Id="U30_Q5_K2_11_P103" Dir="IN"/>
+		<Port Id="U30_Q6_K2_13_P102" Dir="IN"/>
+		<Port Id="U30_Q7_K2_15_P00" Dir="IN"/>
+		<Port Id="U31_Q0_K4_1_P99" Dir="IN"/>
+		<Port Id="U31_Q1_K4_3_P98" Dir="IN"/>
+		<Port Id="U31_Q2_K4_5_P97" Dir="IN"/>
+		<Port Id="U31_Q3_K4_7_P96" Dir="IN"/>
+		<Port Id="U31_Q4_K4_9_P95" Dir="IN"/>
+		<Port Id="U31_Q5_K4_11_P93" Dir="IN"/>
+		<Port Id="U31_Q6_K4_13_P92" Dir="IN"/>
+		<Port Id="U31_Q7_K4_15_P90" Dir="IN"/>
+		<Port Id="clockout_P113" Dir="OUT"/>
+		<Port Id="DS_U30_K1_7_P122" Dir="OUT"/>
+		<Port Id="LED_P36" Dir="OUT"/>
+		<Port Id="LED_P40" Dir="OUT"/>
+		<Port Id="LED_P41" Dir="OUT"/>
+		<Port Id="U25B_K1_9_P119" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

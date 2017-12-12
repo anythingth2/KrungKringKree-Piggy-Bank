@@ -1,5 +1,4 @@
 
-# PlanAhead Generated physical constraints 
 
 NET "BAHT5_K1_3_P124" LOC = P124;
 NET "BAHT10_K1_5_P123" LOC = P123;
@@ -26,3 +25,13 @@ NET "U31_Q4_K4_9_P95" LOC = P95;
 NET "U31_Q5_K4_11_P93" LOC = P93;
 NET "U31_Q6_K4_13_P92" LOC = P92;
 NET "U31_Q7_K4_15_P90" LOC = P90;
+
+
+NET "clock_P127" LOC = P7;
+NET "clockout_P113" LOC = P113;
+
+# PlanAhead Generated physical constraints 
+
+NET "LED_P36" LOC = P36;
+NET "LED_P40" LOC = P40;
+NET "LED_P41" LOC = P41;
